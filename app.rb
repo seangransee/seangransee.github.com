@@ -6,3 +6,7 @@ require 'haml'
 get '/' do
   haml :index
 end
+
+get '/styles.css' do
+  sass :styles
+end

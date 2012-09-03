@@ -2,6 +2,16 @@
 %html
   %head
     %title Sean Gransee
+    %link{:href => '/reset.css', :rel => 'stylesheet', :type => 'text/css'}
+    %link{:href => '/styles.css', :rel => 'stylesheet', :type => 'text/css'}
 
   %body
-    %h1 I'm Sean
+    #wrapper
+      %h1 I <a href="https://twitter.com/seangransee">tweet</a>, I <a href="http://blog.seangransee.com">blog</a>, I make stuff.
+
+    #email
+      %a{:href => 'http://blog.seangransee.com'} Blog 
+      %a{:href => 'mailto:sean.gransee@gmail.com'} Email      
+      %a{:href => 'http://twitter.com/seangransee'} Twitter
+      %a{:href => 'http://www.linkedin.com/pub/sean-gransee/32/2a8/203'} Linkedin
+      %a{:href => 'http://facebook.com/sean.gransee'} Facebook
