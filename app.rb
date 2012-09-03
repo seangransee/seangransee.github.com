@@ -1,0 +1,8 @@
+require 'sinatra'
+require 'coffee-script'
+require 'sass'
+require 'haml'
+
+get '/' do
+  haml :index
+end
