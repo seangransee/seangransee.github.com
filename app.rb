@@ -7,6 +7,10 @@ get '/' do
   haml :index
 end
 
+get '/portfolio' do
+  haml :portfolio
+end
+
 get '/styles.css' do
   sass :styles
 end
