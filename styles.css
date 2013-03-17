@@ -1,0 +1,41 @@
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  color: #bf3330;
+  background: url("bg.png"); }
+  body a {
+    color: #01939a;
+    text-decoration: none; }
+  body a:hover {
+    color: #5dc8cd; }
+  @media handheld, only screen and (max-width: 1050px) {
+    body {
+      font-size: 75%; } }
+  @media handheld, only screen and (max-width: 800px) {
+    body {
+      font-size: 50%; } }
+  @media handheld, only screen and (max-width: 600px) {
+    body {
+      font-size: 25%; } }
+  body #wrapper {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 25%; }
+    body #wrapper h1 {
+      font-size: 500%; }
+    body #wrapper .bold {
+      font-weight: bold;
+      padding-bottom: 20px;
+      font-size: 120%; }
+    body #wrapper .portfolio li {
+      padding-bottom: 5px; }
+  body #email {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    padding: 10px;
+    text-align: right; }
+    body #email a {
+      display: block;
+      padding-bottom: 2px;
+      font-size: 12px; }
